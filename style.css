@@ -1,24 +1,36 @@
 /* Basic Style */
+
 body {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
 }
-.aaa {
+
+h1, h2{
+    color: #333;
+    font-weight: 700;
+    font-size: 15px;
+    border-bottom: 2px solid #333;
+    padding: 30px 0 10px;
+    text-transform: uppercase;
+}
+
+.how-to-do-block {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
-.aaa img {
+.eisenhower-matrix{
     width: 100%;
 }
-.aaa .more_inf {
+.link-to-more-information {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.aaa { text-align: center;
+.how-to-do-block {
+     text-align: center;
 }
 }
 .centered-main-page-element {
